@@ -103,6 +103,15 @@
                                     <rect key="frame" x="235" y="180" width="107" height="73"/>
                                 </variation>
                             </imageView>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="VG4-Qg-BV2">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="162" width="204" height="21"/>
+                                </variation>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <variation key="default">
@@ -112,6 +121,7 @@
                                 <exclude reference="cu9-Ug-mSP"/>
                                 <exclude reference="20B-41-ypG"/>
                                 <exclude reference="JOf-BJ-wa7"/>
+                                <exclude reference="VG4-Qg-BV2"/>
                             </mask>
                         </variation>
                         <variation key="widthClass=compact">
@@ -121,6 +131,7 @@
                                 <include reference="cu9-Ug-mSP"/>
                                 <include reference="20B-41-ypG"/>
                                 <include reference="JOf-BJ-wa7"/>
+                                <include reference="VG4-Qg-BV2"/>
                             </mask>
                         </variation>
                     </view>
@@ -129,6 +140,7 @@
                         <outlet property="enterMessageTextField" destination="cAN-Si-j0I" id="fpZ-Wi-j5z"/>
                         <outlet property="enterNameTextField" destination="6xz-xs-57Q" id="anp-r9-S5e"/>
                         <outlet property="messageLebel" destination="20B-41-ypG" id="bTP-Ru-sNj"/>
+                        <outlet property="nameLabel" destination="VG4-Qg-BV2" id="JyT-jd-XHg"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
